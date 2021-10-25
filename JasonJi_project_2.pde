@@ -74,7 +74,6 @@ void draw() {
       stage=3;
     }
     if (millis() - lastTime >= displayTime) { // Time to display next image
-      //imageCounter = ++imageCounter % images.length;
       imageCounter = int(random(0, 10));
       lastTime = millis();
     }
